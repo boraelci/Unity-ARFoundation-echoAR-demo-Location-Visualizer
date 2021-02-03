@@ -1,6 +1,6 @@
 # Unity-ARFoundation-echoAR-demo-Location-Visualizer
 
-Map pin location demo with Unity, ARFoundation, and echoAR.
+Map location visualizer demo with Unity, ARFoundation, and echoAR.
 
 ## Setup
 ### Basics
