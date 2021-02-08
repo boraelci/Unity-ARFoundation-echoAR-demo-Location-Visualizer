@@ -9,13 +9,13 @@ Map location visualizer demo with Unity, ARFoundation, and echoAR.
 
 ### LocationVisualizer
 * Clone this repo
-* Overwrite ```Assets > echoAR > echoAR.cs``` with the corresponding file in this repo
+* Overwrite ```Assets > echoAR > CustomBehaviour.cs``` with the corresponding file in this repo
 
 ## echoAR Console
 * In the ```Content``` page under Manage, select the option to upload new files
 * Upload **both** files in the directory ```MapPinConsoleObject``` located in this repo
 * Ensure that you selected **both** ```Map_Pin.bin``` and ```Map_Pin.gltf``` for a single object upload
-* Update your ```<API_KEY>``` and ```<PIN_ENTRY_ID``` in ```echoAR.cs```
+* Update your ```<API_KEY>``` in ```CustomBehaviour.cs```
 * Upload **both** files in the directory ```ColumbiaMapConsoleObject``` located in this repo
 * Ensure that you selected **both** ```Columbia_Map.obj``` and ```Columbia_Map.mtl``` for a single object upload
 * Add key-value pairs of ```name: PIN, scale: 0.15, direction: right``` to the ```Map_Pin.gltf``` model
@@ -27,9 +27,8 @@ Map location visualizer demo with Unity, ARFoundation, and echoAR.
 Note: These instructions assume that you are familiar with building and running the project for your desired platform (iOS, Android...) Please consult external resources if you are having difficulties in this process.
 
 ## Usage
-* In the [echoAR console](https://console.echoar.xyz/#/pages/data), go to ```Data``` tab under Manage
-* In the ```Global database``` table, set ```latitude``` and ```longitude``` keys for the desired GPS coordinates
-* Location is retrieved with an HTTP GET request to echoAR's API from the ```Global database```
+* In echoAR console, add ```latitude``` and ```longitude``` keys with GPS coordinate values to the Map Pin object
+* Run the mobile application
 
 ## Screenshots
 ### Columbia University Map Pinned
